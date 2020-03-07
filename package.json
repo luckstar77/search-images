@@ -1,0 +1,48 @@
+{
+  "name": "hk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:luckstar77/shopback.git",
+  "author": "luckstar77 <luckstar77y@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node graphql.js",
+    "test": "NODE_ENV=test mocha test/test.js test/**/**test.js --exit --colors --timeout 10000",
+    "test-report": "NODE_ENV=test nyc mocha test/test.js test/**/**test.js --exit --colors --timeout 10000",
+    "lint": "eslint --ignore-path .gitignore .",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
+    "format": "yarn prettier -- --write",
+    "check-format": "yarn prettier -- --list-different"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.10.0",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7",
+    "mocha": "^7.0.1",
+    "nock": "^11.7.2",
+    "nyc": "^15.0.0",
+    "power-assert": "^1.6.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.11.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect": "^3.7.0",
+    "cookie": "^0.4.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3",
+    "qs-middleware": "^1.0.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sinon": "^8.1.1",
+    "supertest": "^4.0.2"
+  }
+}
