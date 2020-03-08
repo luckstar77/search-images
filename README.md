@@ -14,6 +14,7 @@ http://images.imallenlai.com:4001/graphql
 4. signup on http://127.0.0.1:4001/graphql
 5. login to get authorization token on http://127.0.0.1:4001/graphql
 6. search with key and authorization on http://127.0.0.1:4001/graphql
+7. logout to revoke authorization token on http://127.0.0.1:4001/graphql
 
 ### Graphql Example
 ```
