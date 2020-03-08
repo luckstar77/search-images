@@ -19,7 +19,7 @@ http://images.imallenlai.com:4001/graphql
 ### Graphql Example
 ```
 query {
-  search(key:"city" authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7Il9pZCI6IjVlNjQ0OGM2N2I1ZDRjMDAxZjNjY2JkYSIsInVzZXJuYW1lIjoidGVzdCJ9LCJleHAiOjE1ODM2MzE1ODEsImlhdCI6MTU4MzYzMDY4MX0.89sfkBN6q-QELDPqRz0R4ua-xf3yeO8us-OSfiM5tPc") {
+  search(key:"city" authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7Il9pZCI6IjVlNjQ0OGM2N2I1ZDRjMDAxZjNjY2JkYSIsInVzZXJuYW1lIjoidGVzdCJ9LCJleHAiOjE1ODM2MzMwNzUsImlhdCI6MTU4MzYzMjE3NX0.R6qZ324aGFdRSCVTipzl7Ou0MTEniSpMFezmbxTuYcU") {
     image_ID
     thumbnails
     preview
@@ -32,6 +32,6 @@ query {
 # mutation {
 #   signup(username:"test" password:"test")
 #   login(username:"test" password:"test")
-#   logout(authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7Il9pZCI6IjVlNjQ0OGM2N2I1ZDRjMDAxZjNjY2JkYSIsInVzZXJuYW1lIjoidGVzdCJ9LCJleHAiOjE1ODM2MzE0MzQsImlhdCI6MTU4MzYzMDUzNH0.cl3G4A7ybiD3pIBPJEwiCuck7QYVBJeiJTxvfTw3nac")
+# 	logout(authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7Il9pZCI6IjVlNjQ0OGM2N2I1ZDRjMDAxZjNjY2JkYSIsInVzZXJuYW1lIjoidGVzdCJ9LCJleHAiOjE1ODM2MzE0MzQsImlhdCI6MTU4MzYzMDUzNH0.cl3G4A7ybiD3pIBPJEwiCuck7QYVBJeiJTxvfTw3nac")
 # }
 ```
