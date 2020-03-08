@@ -19,7 +19,7 @@ http://images.imallenlai.com:4001/graphql
 ### Graphql Example
 ```
 query {
-  search(key:"city" authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7Il9pZCI6IjVlNjQ0OGM2N2I1ZDRjMDAxZjNjY2JkYSIsInVzZXJuYW1lIjoidGVzdCJ9LCJleHAiOjE1ODM2MzMwNzUsImlhdCI6MTU4MzYzMjE3NX0.R6qZ324aGFdRSCVTipzl7Ou0MTEniSpMFezmbxTuYcU") {
+  search(key:"city" authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7Il9pZCI6IjVlNjQ0OGM2N2I1ZDRjMDAxZjNjY2JkYSIsInVzZXJuYW1lIjoidGVzdCJ9LCJleHAiOjE1ODQyMzg2MTksImlhdCI6MTU4MzYzMzgxOX0.4BDOJ2e0P22keAG_5xP-H0ZN2zPaqZZCrVdhSsFa_nM") {
     image_ID
     thumbnails
     preview
