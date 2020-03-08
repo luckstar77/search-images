@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   };
 
   const token = jwt.sign(
-    { payload, exp: Math.floor(Date.now() / 1000) + 60 * 15 },
+    { payload, exp: Math.floor(Date.now() / 1000) + 60 * 60 * 24 * 7 },
     config.SECRET_KEY,
   );
   res.json(token);
