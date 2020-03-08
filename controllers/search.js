@@ -56,7 +56,7 @@ module.exports = async (req, res) => {
       const hmac = hmacBuilder.digest('hex');
       rp({
         method: 'GET',
-        uri: 'https://api.videoblocks.com' + searchUri,
+        uri: 'https://api.graphicstock.com' + searchUri,
         qs: {
           keywords: key,
           APIKEY: STORYBLOCKS_PK,
